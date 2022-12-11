@@ -2,6 +2,8 @@ from paypalrestsdk import Payout, ResourceNotFound
 import random
 import string
 
+# Include your client_id and client_secret
+
 sender_batch_id = ''.join(
     random.choice(string.ascii_uppercase) for i in range(12))
 
